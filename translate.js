@@ -41,7 +41,7 @@ class Translate{
     }
 
     async start(){
-        this.browser = await this.puppeteer.launch({headless:false})
+        this.browser = await this.puppeteer.launch()
         this.page = await this.browser.newPage()
         try{
             await this.page.goto(this.link)
