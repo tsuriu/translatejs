@@ -21,12 +21,9 @@ Javascript text translation module made with puppeteer using google translator
 * Clone repository
 ```
 git clone https://github.com/adrien4g/translatejs
+
 ```
-* Change directory
-```
-cd translatejs
-```
-* Install
+* Install Dependences
 ```
 yarn install or npm install
 ```
