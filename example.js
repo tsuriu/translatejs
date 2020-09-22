@@ -8,4 +8,4 @@ const Translate = require('./translate')
         let translatedText = await browser.translate(text)
         console.log(translatedText)
     }   
-})()
+})
