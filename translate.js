@@ -55,8 +55,8 @@ class Translate{
         try{
             this.input = await this.readline.question(this.msg.inputWord)
         }catch{
-            console.log(this.msg.errorEmptyInput)
-            return inputTranslate()
+            this.output = this.msg.errorEmptyInput
+            await inputTranslate()
         }
         return this.input
     }
