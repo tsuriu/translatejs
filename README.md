@@ -28,7 +28,7 @@ cd translatejs
 ```
 * Install
 ```
-yarn install or npm instal
+yarn install or npm install
 ```
 
 ## Usage
